@@ -1,0 +1,103 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url(../img/bar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ededed;
+}
+
+.header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 10%;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ededed;
+}
+
+.header h2{
+  font-size: 36px;
+}
+
+.main-nav a {
+  font-size: 24px;
+  margin-left: 35px;
+  text-decoration: none;
+  color: #ededed;
+
+}
+
+.getDrink{
+  display: flex;
+
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+ 
+
+}
+
+.container section {
+  width: 33.3333%;
+  
+  height: 50%;
+}
+
+.drinkImg img {
+  width: 100%;
+}
+.drinkInstr{
+  padding-left:20px
+}
+/* .byDrink {
+  width: 60%;
+}
+
+.byDrink h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ededed;
+}
+ 
+.drinkImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drinkImg img{
+  width: 100%;
+}
+.container .inst {
+  color: #ededed;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    padding: 5%;
+} */
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
